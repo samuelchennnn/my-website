@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="site_title">陈松涛 · Portfolio</title>
+  <meta name="description" content="陈松涛 — 跨境项目 · 产业金融 · 全球视野">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Chen Songtao</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          <span class="gradient-text">陈松涛</span>
+        </h1>
+        <p class="hero-subtitle" data-i18n="hero_desc">
+          Building at the intersection of technology, finance, and global markets.
+          Computer Science student · GDSC · IELTS 8.0 · Based in Shenzhen.
+        </p>
+        <div class="hero-meta">
+          <span class="hero-meta-item"><i class="fas fa-map-pin"></i> <span data-i18n="hero_meta_location">Shenzhen</span></span>
+          <span class="hero-meta-item"><i class="fas fa-newspaper"></i> <span data-i18n="hero_meta_reading">Reading Bloomberg / SCMP</span></span>
+          <span class="hero-meta-item"><i class="fas fa-rocket"></i> <span data-i18n="hero_meta_building">Building SZ-HK Lecture & Event Community</span></span>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span data-i18n="hero_btn_projects">View Projects</span> <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_contact">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-bg"></div>
+          <div class="hero-avatar" id="heroAvatar">
+            <img src="assets/avatar.jpg" alt="陈松涛" id="avatarImg">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="hero-card-info">
+            <div class="hero-card-name">陈松涛</div>
+            <div class="hero-card-role" data-i18n="hero_card_role">Tech · Finance · Global Markets</div>
+          </div>
+          <div class="hero-card-stats">
+            <div class="hero-stat">
+              <i class="fas fa-badminton" style="font-size:1.2rem;color:var(--accent);"></i>
+              <span class="hero-stat-label" data-i18n="hero_stat_community">Badminton</span>
+            </div>
+            <div class="hero-stat">
+              <i class="fas fa-compass" style="font-size:1.2rem;color:var(--accent);"></i>
+              <span class="hero-stat-label" data-i18n="hero_stat_report">Exploring</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="about_label">About</span>
+        <h2 class="section-title" data-i18n="about_title">Who I Am</h2>
+        <p class="section-desc" data-i18n="about_desc">A CS student who bridges technology, finance, and international relations.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p data-i18n="about_p1">
+            I'm a 21-year-old Computer Science student (top 20% of class) based in Shenzhen, China.
+            Founded and operate the SZ-HK Premium Lecture &amp; Event Sharing Community (~500 members).
+            Interviewed U.S. Treasury Secretary Scott Bessent. Advised on cross-border IPO strategies.
+          </p>
+          <p data-i18n="about_p2">
+            I read Bloomberg and SCMP daily, track AI and SaaS出海 trends, and have a proven ability
+            to operate at the intersection of technology, finance, and international policy.
+            I'm a Google Developer Student Club member, an IELTS Reading 8.0 scorer,
+            and someone who believes the best opportunities lie at the crossroads of disciplines.
+          </p>
+        </div>
+        <div class="about-highlights reveal">
+          <div class="highlight-card">
+            <div class="num"><i class="fas fa-badminton" style="font-size:1.6rem;color:var(--accent);"></i></div>
+            <div class="label" data-i18n="highlight_1_label">Love playing badminton</div>
+          </div>
+          <div class="highlight-card">
+            <div class="num"><i class="fas fa-compass" style="font-size:1.6rem;color:var(--accent);"></i></div>
+            <div class="label" data-i18n="highlight_2_label">Love exploring</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="projects_label">Projects</span>
+        <h2 class="section-title" data-i18n="projects_title">Selected Work</h2>
+        <p class="section-desc" data-i18n="projects_desc">Community building, international reporting, and independent research. Click any card for details.</p>
+      </div>
+      <div class="project-filters reveal" id="projectFilters">
+        <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All</button>
+        <button class="filter-btn" data-filter="community" data-i18n="filter_community">Community</button>
+        <button class="filter-btn" data-filter="research" data-i18n="filter_research">Research</button>
+        <button class="filter-btn" data-filter="media" data-i18n="filter_media">Media</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+
+        <div class="project-card reveal" data-category="community" data-project="0">
+          <div class="icon-wrap"><i class="fas fa-globe-asia"></i></div>
+          <h3 data-i18n="proj_0_title">SZ-HK Premium Lecture & Event Sharing Community</h3>
+          <p data-i18n="proj_0_desc">Founded and operated a curated lecture and event sharing community. ~500 general members, ~100 premium users. Content partnerships with HKU Business School, PKU HSBC Business School, and Great Bay University.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_0_tag1">Community Operations</span>
+            <span data-i18n="proj_0_tag2">Content Curation</span>
+            <span data-i18n="proj_0_tag3">User Tiering</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="media" data-project="1">
+          <div class="icon-wrap"><i class="fas fa-microphone"></i></div>
+          <h3 data-i18n="proj_1_title">Interviewed U.S. Treasury Secretary</h3>
+          <p data-i18n="proj_1_desc">Interviewed Secretary Scott Bessent in Kuala Lumpur during the U.S.-China trade talks in October 2025. Captured on-site footage and key diplomatic moments; published on Xiaohongshu with 100+ engagements.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_1_tag1">International Reporting</span>
+            <span data-i18n="proj_1_tag2">On-site Coverage</span>
+            <span data-i18n="proj_1_tag3">Content Strategy</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="research" data-project="2">
+          <div class="icon-wrap"><i class="fas fa-file-alt"></i></div>
+          <h3 data-i18n="proj_2_title">ASEAN-HKEX Research Report</h3>
+          <p data-i18n="proj_2_desc">Screened 2,600 HK-listed companies → 23 ASEAN-linked → deep-dive on 4. Produced a 30+ page report covering macro analysis, valuation modeling (PE/PB), and a cross-border risk assessment framework.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_2_tag1">Financial Analysis</span>
+            <span data-i18n="proj_2_tag2">Valuation Modeling</span>
+            <span data-i18n="proj_2_tag3">Risk Framework</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="community" data-project="3">
+          <div class="icon-wrap"><i class="fas fa-handshake"></i></div>
+          <h3 data-i18n="proj_3_title">GBA × Johor-Singapore SEZ Exchange</h3>
+          <p data-i18n="proj_3_desc">Commissioned by a former Singaporean trade official to plan and execute a youth exchange program between the Greater Bay Area and the Johor-Singapore Special Economic Zone. Coordinated cross-border stakeholders and resources.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_3_tag1">Cross-border Coordination</span>
+            <span data-i18n="proj_3_tag2">Event Planning</span>
+            <span data-i18n="proj_3_tag3">International Relations</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="media" data-project="4">
+          <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
+          <h3 data-i18n="proj_4_title">ASEAN Economic Forums</h3>
+          <p data-i18n="proj_4_desc">Participated in high-level ASEAN economic forums and the Malaysia Annual Economic Forum, engaging with the Prime Minister of Malaysia and multiple cabinet ministers on policy and economic outlook.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_4_tag1">Policy Analysis</span>
+            <span data-i18n="proj_4_tag2">Economic Forums</span>
+            <span data-i18n="proj_4_tag3">Global Affairs</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="research" data-project="5">
+          <div class="icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+          <h3 data-i18n="proj_5_title">Industrial Finance Research Program</h3>
+          <p data-i18n="proj_5_desc">Completed the SYSU-Shenzhen Advanced Research Program on Industrial Finance (Aug 2025), deepening understanding of industrial policy, financial markets, and economic trends.</p>
+          <div class="project-tech">
+            <span data-i18n="proj_5_tag1">Industrial Finance</span>
+            <span data-i18n="proj_5_tag2">Policy Research</span>
+            <span data-i18n="proj_5_tag3">Executive Education</span>
+          </div>
+          <div class="project-card-footer">
+            <span class="project-detail-link"><span data-i18n="view_details">View details</span> <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="exp_label">Experience</span>
+        <h2 class="section-title" data-i18n="exp_title">Timeline</h2>
+        <p class="section-desc" data-i18n="exp_desc">From coding to cross-border finance — a non-linear path. Click any item to expand.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-delay="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">2025 — Present</div>
+                <h3 data-i18n="tl_0_title">Cross-border Projects &amp; Global Exposure</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_0_preview">Founded SZ-HK Premium Lecture & Event Sharing Community (~500 members). Commissioned to organize GBA × Johor-Singapore SEZ youth exchange. Completed SYSU Industrial Finance program.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_0_detail_label">Key Achievements</span>
+                <ul>
+                  <li data-i18n="tl_0_d1">Founded SZ-HK Premium Lecture & Event Sharing Community — ~500 general members, ~100 premium users</li>
+                  <li data-i18n="tl_0_d2">Content partnerships with HKU Business School, PKU HSBC Business School, and Great Bay University</li>
+                  <li data-i18n="tl_0_d3">Completed SYSU-Shenzhen Advanced Research Program on Industrial Finance</li>
+                  <li data-i18n="tl_0_d4">Interviewed U.S. Treasury Secretary Scott Bessent in Kuala Lumpur</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">Dec 2025 — Jan 2026</div>
+                <h3 data-i18n="tl_1_title">Executive Assistant to GM · 道深投资控股</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_1_preview">Cross-border IPO advisory, executive-level liaison with Malaysian listed companies, roadshow strategy, and full-cycle client onboarding support.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_1_detail_label">Key Responsibilities</span>
+                <ul>
+                  <li data-i18n="tl_1_d1">Cross-border IPO advisory for companies seeking dual listing between China and Malaysia</li>
+                  <li data-i18n="tl_1_d2">Executive-level liaison with Malaysian listed companies and regulatory bodies</li>
+                  <li data-i18n="tl_1_d3">Roadshow strategy development and investor presentation preparation</li>
+                  <li data-i18n="tl_1_d4">Full-cycle client onboarding — from initial contact to engagement letter</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">Oct 2025</div>
+                <h3 data-i18n="tl_2_title">Interviewed U.S. Treasury Secretary Bessent</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_2_preview">On-site in Kuala Lumpur during U.S.-China trade talks. Captured and published exclusive footage and key diplomatic moments.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_2_detail_label">Details</span>
+                <ul>
+                  <li data-i18n="tl_2_d1">On-the-ground coverage of U.S.-China trade negotiations in Kuala Lumpur</li>
+                  <li data-i18n="tl_2_d2">Captured exclusive footage of Secretary Bessent's remarks</li>
+                  <li data-i18n="tl_2_d3">Published content on Xiaohongshu, generating 100+ engagements</li>
+                  <li data-i18n="tl_2_d4">Demonstrated ability to operate in high-stakes diplomatic environments</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">Sep — Oct 2025</div>
+                <h3 data-i18n="tl_3_title">HR Specialist · 才多对信息技术</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_3_preview">Full-channel recruitment (BOSS直聘/猎聘/智联), 20-30 phone screens/day, 10-15 structured interviews/week, recruitment funnel optimization.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_3_detail_label">Key Metrics</span>
+                <ul>
+                  <li data-i18n="tl_3_d1">20-30 phone screens per day across multiple recruitment channels</li>
+                  <li data-i18n="tl_3_d2">10-15 structured interviews per week</li>
+                  <li data-i18n="tl_3_d3">Full-channel recruitment: BOSS直聘, 猎聘, 智联</li>
+                  <li data-i18n="tl_3_d4">Recruitment funnel optimization and candidate pipeline management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="400">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">Jul — Aug 2025</div>
+                <h3 data-i18n="tl_4_title">Investment Assistant · 海坤投资管理</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_4_preview">Global market intelligence (Bloomberg/SCMP), AI/SaaS出海 project screening, financial data analysis with Excel.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_4_detail_label">Key Responsibilities</span>
+                <ul>
+                  <li data-i18n="tl_4_d1">Global market intelligence gathering via Bloomberg, SCMP, and financial databases</li>
+                  <li data-i18n="tl_4_d2">AI and SaaS出海 project screening and preliminary due diligence</li>
+                  <li data-i18n="tl_4_d3">Financial data analysis and modeling using Excel</li>
+                  <li data-i18n="tl_4_d4">Investment memo preparation for the investment committee</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="500">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card" data-expandable>
+            <div class="timeline-card-header">
+              <div>
+                <div class="timeline-date">2022 — Present</div>
+                <h3 data-i18n="tl_5_title">B.Sc. Computer Science</h3>
+              </div>
+              <i class="fas fa-chevron-down timeline-chevron"></i>
+            </div>
+            <p class="timeline-preview" data-i18n="tl_5_preview">Top 20% of class. Key courses: Computer Organization, Software Engineering, Java, Operating Systems, Discrete Math. GDSC member.</p>
+            <div class="timeline-details">
+              <div class="timeline-detail-item">
+                <span class="detail-label" data-i18n="tl_5_detail_label">Academic Highlights</span>
+                <ul>
+                  <li data-i18n="tl_5_d1">Top 20% of Computer Science class</li>
+                  <li data-i18n="tl_5_d2">Key coursework: Computer Organization, Software Engineering, Java, Operating Systems, Discrete Mathematics</li>
+                  <li data-i18n="tl_5_d3">Google Developer Student Club (GDSC) member</li>
+                  <li data-i18n="tl_5_d4">IELTS Reading 8.0 — proficient in English academic and financial materials</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="contact_label">Contact</span>
+        <h2 class="section-title" data-i18n="contact_title">Get in Touch</h2>
+        <p class="section-desc" data-i18n="contact_desc">Whether you have a project idea, an opportunity, or just want to say hi — I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4 data-i18n="contact_email_label">Email</h4>
+              <a href="mailto:shenzhenhk5201314@gmail.com">shenzhenhk5201314@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4 data-i18n="contact_location_label">Location</h4>
+              <p data-i18n="contact_location">Shenzhen, China</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4 data-i18n="contact_phone_label">Phone</h4>
+              <a href="tel:+8613027691187">+86 130-2769-1187</a>
+            </div>
+          </div>
+          <div class="contact-item resume-download-item">
+            <div class="contact-item-icon"><i class="fas fa-file-pdf"></i></div>
+            <div>
+              <h4 data-i18n="contact_resume_label">Resume</h4>
+              <button class="resume-btn" id="resumeBtn"><span data-i18n="contact_resume_btn">Download Resume</span> <i class="fas fa-download"></i></button>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="WeChat"><i class="fab fa-weixin"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" data-i18n-placeholder="form_name_placeholder" placeholder="Your name" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" data-i18n-placeholder="form_email_placeholder" placeholder="Your email" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" data-i18n-placeholder="form_subject_placeholder" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" data-i18n-placeholder="form_message_placeholder" placeholder="What would you like to say?" required></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+            <span class="btn-text" data-i18n="form_submit">Send Message</span>
+            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+            <span class="btn-spinner"><i class="fas fa-circle-notch fa-spin"></i></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-copy">&copy; 2026 Chen Songtao</p>
+        <div class="footer-links">
+          <a href="#about" data-i18n="nav_about">About</a>
+          <a href="#projects" data-i18n="nav_projects">Projects</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TOP -->
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- RESUME MODAL -->
+  <div class="modal-overlay" id="resumeModal">
+    <div class="modal modal-lg">
+      <button class="modal-close" id="resumeModalClose" aria-label="Close">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-body">
+        <div class="resume-preview">
+          <div class="resume-preview-icon">
+            <i class="fas fa-file-pdf"></i>
+          </div>
+          <h3 data-i18n="resume_modal_title">Chen Songtao — Resume</h3>
+          <p data-i18n="resume_modal_desc">PDF preview is not available in-browser. Click below to download.</p>
+          <a href="resume/Chen_Songtao_Resume.pdf" class="btn btn-primary" download>
+            <i class="fas fa-download"></i> <span data-i18n="resume_modal_btn">Download Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUCCESS OVERLAY -->
+  <div class="success-overlay" id="successOverlay">
+    <div class="success-card">
+      <div class="success-icon">
+        <i class="fas fa-check"></i>
+      </div>
+      <h3 data-i18n="success_title">Message Sent!</h3>
+      <p data-i18n="success_desc">Thanks for reaching out. I'll get back to you within 24 hours.</p>
+      <button class="btn btn-outline" id="successClose" data-i18n="success_btn">Got it</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
